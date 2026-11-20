@@ -5,9 +5,9 @@ function ReviewHira() {
   return (
     <div className="review-card">
       <Avatar />
-      <h3>Hira</h3>
+      <h3>Hira M.</h3>
       <Rating />
-      <p>The cream milk rolls were soft, creamy, and amazing!</p>
+      <p>The Nankhatai tasted just like my grandmother's.</p>
     </div>
   );
 }

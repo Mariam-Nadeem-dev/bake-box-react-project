@@ -17,7 +17,7 @@ function RollCard() {
 
       <div className="product-content">
         <p className="product-category">FRESH CREAM CHEESE SPECIAL</p>
-        <h3>CINNAMON Rolls</h3>
+        <h3>Cinnamon Rolls</h3>
         <p>
           Box of 4, with cream cheese.
         </p>
