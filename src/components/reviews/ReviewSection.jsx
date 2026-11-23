@@ -1,5 +1,4 @@
-import ReviewSara from "./ReviewSara";
-import ReviewHira from "./ReviewHira";
+import ReviewCard from "./ReviewCard";
 
 function ReviewSection() {
   return (
@@ -7,8 +6,17 @@ function ReviewSection() {
       <h2>Customer Reviews</h2>
 
       <div className="reviews-row">
-        <ReviewSara />
-        <ReviewHira />
+
+        <ReviewCard
+          name="Sara A."
+          comment="Best brownies on campus. I order twice a week!"
+        />
+
+        <ReviewCard
+          name="Hira M."
+          comment="The Nankhatai tasted just like my grandmother's."
+        />
+
       </div>
     </section>
   );
